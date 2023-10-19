@@ -1,0 +1,26 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aubreymlj96/profile-generator.git"
+  },
+  "keywords": [
+    "'profile",
+    "generator\""
+  ],
+  "author": "Aubrey Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aubreymlj96/profile-generator/issues"
+  },
+  "homepage": "https://github.com/aubreymlj96/profile-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
