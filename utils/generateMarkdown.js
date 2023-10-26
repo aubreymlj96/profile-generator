@@ -68,7 +68,9 @@ function renderLicenseBadge(license) {
     // const data = [title, description, install, usage, contributors, test, license, email, github];
 
     let markdown = "# " + data.title + "\n";
-
+    
+    markdown += renderLicenseBadge(data.license) + "\n";
+    
     // '+=' adds a value to a variable as is shown for the statement above and the ones below
   
     markdown += "## Table of Contents\n";
